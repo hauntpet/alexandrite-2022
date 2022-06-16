@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e6b9d2f6ec393bb9b82489cd95ee5063",
+    "packages": [
+        {
+            "name": "hauntpet/theme",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../../theme",
+                "reference": "0a1d9cdc6742c00e6a08baa6cd13ccf5be375c2b"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HauntPet\\Theme\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Lumite Studios",
+                    "email": "hauntpet@lumitestudios.com"
+                }
+            ],
+            "description": "The main theme package.",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "hauntpet/theme": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

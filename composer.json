@@ -9,11 +9,25 @@
             "email": "hauntpet@lumitestudios.com"
         }
     ],
-    "require": {},
+    "repositories": [
+        { "type": "path", "url": "../../theme" }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "hauntpet/theme": "dev-main"
+    },
     "autoload": {
         "psr-4": {
             "HauntPet\\Alexandrite\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HauntPet\\Alexandrite\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
