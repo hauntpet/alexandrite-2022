@@ -1,0 +1,19 @@
+{
+    "name": "hauntpet/alexandrite-2022",
+    "description": "The default 2022 theme: Alexandrite.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Lumite Studios",
+            "email": "hauntpet@lumitestudios.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HauntPet\\Alexandrite\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
