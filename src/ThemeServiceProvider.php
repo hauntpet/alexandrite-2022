@@ -18,8 +18,15 @@ class ThemeServiceProvider extends ServiceProvider
 
         Repository::add($key, [
             'title' => 'Alexandrite (2022 Default Theme)'
+        ], [
+            'show-banner' => [
+                'title' => 'Show Banner',
+                'description' => 'Whether to show the banner or not.',
+                'type' => 'checkbox',
+                'default' => true,
+            ],
         ]);
-        Repository::loadViews($key, __DIR__ . '/../views');
+        Repository::loadViews($key, __DIR__ . '/../resources/views');
         Repository::activate($key);
     }
 }

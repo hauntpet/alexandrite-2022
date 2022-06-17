@@ -8,4 +8,4 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
 
-    <body class="overflow-x-hidden overflow-y-auto">
+    <body class="bg-gray-100 overflow-x-hidden overflow-y-auto">
