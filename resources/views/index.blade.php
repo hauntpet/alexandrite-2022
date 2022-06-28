@@ -5,7 +5,7 @@
         @include('alexandrite::_hero')
 
         <div class="bg-white p-6">
-            {{ $content }}
+            {!! $content !!}
         </div>
     </div>
 
